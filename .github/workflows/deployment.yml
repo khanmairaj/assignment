@@ -23,6 +23,7 @@ jobs:
           HOST: ${{ secrets.SSH_HOST }}
           PORT: ${{ secrets.SSH_PORT }} # custom port
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
           # will put all file under this path
           REPO_PATH: ${{ secrets.REPO_PATH }} # default is ./*
           # files will copy to under remote_path
