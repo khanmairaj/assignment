@@ -27,4 +27,3 @@ jobs:
           REPO_PATH: ${{ REPO_PATH }} # default is ./*
           # files will copy to under remote_path
           REMOTE_PATH: ${{ secrets.REMOTE_PATH }}
-
